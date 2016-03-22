@@ -15,12 +15,12 @@ List<User> users = (List<User>)renderRequest.getAttribute("usuarios");
 %>
 
 
-<table class="table table-bordered table-hover table-striped">
+<table class="table table-striped table-bordered table-hover table-condensed">
 	<thead>
 		<tr>
-			<td>Id</td>
-			<td>Nombre</td>
-			<td>Apellido</td>
+			<th>Id</th>
+			<th>Nombre</th>
+			<th>Apellido</th>
 
 		</tr>
 	</thead>
