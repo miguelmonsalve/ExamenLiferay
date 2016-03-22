@@ -22,6 +22,8 @@ public class UsersTable extends MVCPortlet {
 			List<User> usersList = UserLocalServiceUtil.getUsers(0, UserLocalServiceUtil.getUsersCount());
 
 			renderRequest.setAttribute("usuarios", usersList);
+			
+			
 
 			include("/html/userstable/view.jsp", renderRequest, renderResponse);
 
